@@ -13,6 +13,7 @@ color email, tel. footer: rgba(255, 255, 255, 0.6); */
     --background-secondary: #2F303A;
     --background-hero: rgba(47, 48, 58, 0.4);
     --bg-hero: #C4C4C4;
+    --bg-icon-footer:rgba(255, 255, 255, 0.1);
     --fill: #2196F3;
     --bottom-line-header: #ECECEC;
     --main-text:#757575;
@@ -55,8 +56,7 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    
-    
+        
 }
 a {
     font-family: inherit;
@@ -405,7 +405,7 @@ img {
 /* Footer */
 
 footer{
-
+    display: flex;
     padding-top: 60px;
     padding-bottom: 60px;
     
@@ -431,8 +431,35 @@ address {
     color: rgba(255, 255, 255, 0.6);
    
 }
-
  
+.social-links-list {
+    display:flex ;
+    flex-direction: row;
+}
+
+.instagram {
+    background-image: url(../images/instagram.svg);
+    width: 10px;
+    height: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover contain;
+}
+
+.social-link {
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: var(--bg-icon-footer);
+    background-image: url(../images/instagram.svg);
+    background-position: center;
+    background-size: 20px;
+    background-repeat: no-repeat;
+        
+}
+
+
 /* Portfolio */
 
 .portfolio {
@@ -447,9 +474,13 @@ address {
     justify-content: center;
 }
 
+.btn-filters li+li {
+    margin-left: 8px;
+}
+
 .btn-filter {
     
-    margin-left: 8px;
+    
     padding: 6px 22px;
     min-width: 128px;
     min-width: 38px;
@@ -513,11 +544,12 @@ address {
 .projecrts-cards-list .projects-cards {
     margin: 15px;
     width: 370px;
+    height: 404px;
         
 }
 
 .description-card-wrapper {
-
+    
     padding: 20px 24px;
     border-left: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
