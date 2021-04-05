@@ -12,6 +12,7 @@ color email, tel. footer: rgba(255, 255, 255, 0.6); */
     --background-color: #ffffff;
     --background-secondary: #2F303A;
     --background-hero: rgba(47, 48, 58, 0.4);
+    --bg-hero: #C4C4C4;
     --fill: #2196F3;
     --bottom-line-header: #ECECEC;
     --main-text:#757575;
@@ -76,6 +77,20 @@ li {
 button {
     cursor: pointer;
 }
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 /* Logo */
 
 a.logo {
@@ -173,7 +188,7 @@ nav .item {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
+    background-color: var(--bg-hero);
     text-align: center;
     padding: 200px 0;;
     
@@ -242,7 +257,33 @@ nav .item {
     margin-right: 30px;
 }
 
+.feauters-list-item::before {
+    content: "";
+    display: block;
+    height: 120px;
+    margin-bottom: 30px;
+    padding: 25px 100px;
+    background-color: var(--background-btn-still);
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
+.icon-antenna::before {
+    background-image: url(../images/antenna.svg);
+}
+
+.icon-clock::before {
+    background-image: url(../images/clock.svg);
+}
+
+.icon-diagram::before {
+    background-image: url(../images/diagram.svg);
+}
+
+.icon-astronaut::before {
+    background-image: url(../images/astronaut.svg);
+}
 .features-list p {
 
     font-weight: normal;
@@ -472,7 +513,7 @@ address {
 .projecrts-cards-list .projects-cards {
     margin: 15px;
     width: 370px;
-    
+        
 }
 
 .description-card-wrapper {
