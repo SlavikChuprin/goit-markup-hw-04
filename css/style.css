@@ -11,6 +11,7 @@ color email, tel. footer: rgba(255, 255, 255, 0.6); */
 :root {
     --background-color: #ffffff;
     --background-secondary: #2F303A;
+    --background-hero: rgba(47, 48, 58, 0.4);
     --fill: #2196F3;
     --bottom-line-header: #ECECEC;
     --main-text:#757575;
@@ -160,9 +161,22 @@ nav .item {
 /* Hero */
 
 .hero {
+    max-width: 1600px;
+    min-height: 600px;
+    margin: 0 auto;
+    
+    
+    background-image: linear-gradient(to right, 
+    var(--background-hero), 
+    var(--background-hero)), 
+    url(../images/img-hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
     text-align: center;
     padding: 200px 0;;
-    background-color: var(--background-secondary);
+    
 }
 .hero h1{
     margin-bottom: 30px;
