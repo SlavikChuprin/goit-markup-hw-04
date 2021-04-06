@@ -429,6 +429,71 @@ img {
     fill: var(--background-color);
 }
 
+
+/* Regular customers */
+
+.regular-customers h2 {
+
+    margin-bottom: 50px;
+    padding-top: 94px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+     
+    color: var(--text-h);
+    
+}
+
+.regular-customers-list {
+
+    display: flex;
+    padding-bottom: 94px;
+    justify-content: center;
+    align-items: center;
+}
+
+.regular-client {
+
+    width: 170px;
+    height: 92px;
+    
+}
+
+.regular-client + .regular-client {
+
+    margin-left: 30px;
+}
+
+.regular-client-link {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid var(--icon-still);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.client-logo {
+    
+    width: 106px;
+    height: 60px;
+    fill: var(--icon-still);
+}
+.regular-client-link:hover .client-logo, .regular-client  {
+
+    fill: var(--fill);
+  
+}
+
+.regular-client-link:hover {
+
+     border: 1px solid var(--fill);
+
+}
 /* Footer */
 
 footer{
@@ -459,8 +524,6 @@ address {
    
 }
  
-
-
 /* Portfolio */
 
 .portfolio {
