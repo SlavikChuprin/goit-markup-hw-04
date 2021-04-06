@@ -142,12 +142,34 @@ nav {
     padding-top: 32px;
     padding-bottom: 32px;
 }
+
+.icon-header {
+
+    margin-right: 10px;
+    fill: var(--main-text);
+}
+.item .email{
+   
+    width: 16px;
+    height: 12px;
+   
+}
+
+.item .phone {
+
+    width: 10px;
+    height: 16px;
+}
+
+.item:hover .icon-header {
+
+    fill:var(--fill);
+}
+
 .header-contacts {
     display: flex;
     margin-left: auto;
 } 
-
-
 .current-page {
     color: var(--fill);
 }
