@@ -476,7 +476,7 @@ address {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.03em;
 
     color: var(--text-h);
 }
