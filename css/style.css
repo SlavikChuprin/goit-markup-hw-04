@@ -177,9 +177,20 @@ nav {
     fill:var(--fill);
 }
 
+.item:focus .icon-header {
+
+    fill:var(--fill);
+  
+}
+.icon-link-header:hover .contacts-link-header  {
+
+    color: var(--fill);
+}
 .header-contacts {
     display: flex;
     margin-left: auto;
+    justify-content: center;
+    align-items: center;
 } 
 .current-page {
     color: var(--fill);
