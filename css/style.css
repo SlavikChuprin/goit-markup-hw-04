@@ -20,6 +20,8 @@ color email, tel. footer: rgba(255, 255, 255, 0.6); */
     --spacial-text: #000000;
     --text-h:  #212121;
     --background-btn-still: #F5F4FA;
+    --icon-still: #AFB1B8;
+    
 }
 html {
    
@@ -350,7 +352,7 @@ img {
 .wrapper-description {
 
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 16px;
     text-align: center;
 }
 
@@ -385,6 +387,48 @@ img {
     background-color: var(--background-color);
     border-radius: 0px 0px 4px 4px;
 }
+
+.icon-social-links-wrapper {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 30px;
+  
+}
+
+.social-link {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+       
+}
+.social-link + .social-link {
+
+    margin-left: 10px;
+}
+.social-links-icon {
+
+    width: 20px;
+    height: 20px;
+    fill: var(--icon-still);
+
+}
+
+.social-link:hover {
+    background-color: var(--fill) ;
+        
+}
+.social-link:hover .social-links-icon {
+
+    fill: var(--background-color);
+}
+
 /* Footer */
 
 footer{
