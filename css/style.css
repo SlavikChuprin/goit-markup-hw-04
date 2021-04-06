@@ -238,6 +238,8 @@ nav .item {
 
     display: flex;
  }
+
+
 .features-list h3 {
     margin-bottom: 10px;
     font-weight: 700;
@@ -257,33 +259,6 @@ nav .item {
     margin-right: 30px;
 }
 
-.feauters-list-item::before {
-    content: "";
-    display: block;
-    height: 120px;
-    margin-bottom: 30px;
-    padding: 25px 100px;
-    background-color: var(--background-btn-still);
-    border-radius: 4px;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.icon-antenna::before {
-    background-image: url(../images/antenna.svg);
-}
-
-.icon-clock::before {
-    background-image: url(../images/clock.svg);
-}
-
-.icon-diagram::before {
-    background-image: url(../images/diagram.svg);
-}
-
-.icon-astronaut::before {
-    background-image: url(../images/astronaut.svg);
-}
 .features-list p {
 
     font-weight: normal;
@@ -294,6 +269,14 @@ nav .item {
     color: var(--main-text);
 }
 
+.feauters-list-item .icon-feauters {
+    width: 270px;
+    height: 120px;
+    padding: 25px 100px;
+    margin-bottom: 30px;
+    background-color: var(--background-btn-still);
+    border-radius: 4px;
+}
 /* WHAT DO WE DO */
 
 .what-we-do {
@@ -432,32 +415,6 @@ address {
    
 }
  
-.social-links-list {
-    display:flex ;
-    flex-direction: row;
-}
-
-.instagram {
-    background-image: url(../images/instagram.svg);
-    width: 10px;
-    height: 20px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover contain;
-}
-
-.social-link {
-    display: inline-block;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    background-color: var(--bg-icon-footer);
-    background-image: url(../images/instagram.svg);
-    background-position: center;
-    background-size: 20px;
-    background-repeat: no-repeat;
-        
-}
 
 
 /* Portfolio */
