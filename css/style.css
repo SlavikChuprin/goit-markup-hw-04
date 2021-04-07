@@ -458,11 +458,15 @@ img {
     background-color: var(--fill) ;
         
 }
-.social-link:hover,.social-link:focus .social-links-icon {
+.social-link:hover .social-links-icon {
 
     fill: var(--background-color);
 }
 
+.social-link:focus .social-links-icon {
+
+    fill: var(--background-color);
+}
 
 /* Regular customers */
 
@@ -510,13 +514,20 @@ img {
     height: 60px;
     fill: var(--icon-still);
 }
-.regular-client-link:hover, .regular-client-link:focus .client-logo, .regular-client  {
+.regular-client-link:hover .client-logo  {
 
     fill: var(--fill);
   
 }
 
-.regular-client-link:hover {
+.regular-client-link:focus .client-logo  {
+
+    fill: var(--fill);
+  
+}
+
+.regular-client-link:hover,
+.regular-client-link:focus {
 
      border: 1px solid var(--fill);
 
@@ -703,6 +714,7 @@ address {
 
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+
 
 .description-card-wrapper {
     
