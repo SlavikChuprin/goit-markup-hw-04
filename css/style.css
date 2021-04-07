@@ -41,6 +41,9 @@ ul {
     padding: 0;
 }
 
+a:focus {
+    outline: 1px dashed var(--bottom-line-header);
+}
 
 body {
     margin: 0 auto;
@@ -699,10 +702,6 @@ address {
 .projects-cards:focus {
 
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
-.projects-cards img {
-    box-sizing: content-box;
 }
 
 .description-card-wrapper {
