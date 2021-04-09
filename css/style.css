@@ -455,11 +455,9 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 206px;
-    margin-left: 32px;
-    margin-right: 32px;
     margin-top: 16px;
- 
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
 .social-link {
